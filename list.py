@@ -9,7 +9,7 @@ print()
 import sqlite3
 from helper_functions import show_data, get_input, todo_app, tasks_html
 
-connection = sqlite3.connect('database/app.db')
+connection = sqlite3.connect('app.db')
 
 sql = connection.cursor()
 
